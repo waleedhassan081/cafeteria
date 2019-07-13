@@ -32,7 +32,7 @@
                   </div>
                   <div class="profile_info">
                     <span>Welcome,</span>
-                    <h2>John Doe</h2>
+                    <h2>Malik Asad</h2>
                   </div>
                   <div class="clearfix"></div>
                 </div>
@@ -47,8 +47,8 @@
                     <ul class="nav side-menu">
                       <li><a><i class="fa fa-home"></i> Categories <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                          <li><a href="#">Add Category</a></li>
-                          <li><a href="#">Update Category</a></li>
+                        <li><a href="{{route('category.create')}}">Add Category</a></li>
+                        <li><a href="{{route('category.index')}}">Update Category</a></li>
                         </ul>
                       </li>
                      
@@ -88,7 +88,7 @@
                   <ul class="nav navbar-nav navbar-right">
                     <li class="">
                       <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                        <img src="{{asset('images/img.jpg')}}" alt="">John Doe
+                        <img src="{{asset('images/img.jpg')}}" alt="">Malik Asad
                         <span class=" fa fa-angle-down"></span>
                       </a>
                       <ul class="dropdown-menu dropdown-usermenu pull-right">
